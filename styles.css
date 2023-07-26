@@ -1,0 +1,45 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.mainDiv {
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.mainDiv h1 {
+    color: gray;
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+}
+
+footer {
+    width: 55vw;
+    height: auto;
+    text-align: left;
+    color: white;
+    font-size: 12px;
+}
+
+
+
